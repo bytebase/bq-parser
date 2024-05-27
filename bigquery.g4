@@ -96,6 +96,7 @@ expr : number
  	 | function_name '(' ((expr (',' expr)*) | '*') ')'
 	 | cast_expr
 	 | '(' expr ')'
+	 | '[' expr (',' expr)* ']'
 	 | column_expr
 	 | keyword
 	 ;
