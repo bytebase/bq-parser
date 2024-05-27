@@ -61,7 +61,7 @@ func TestBQParser(t *testing.T) {
 
 			p.BuildParseTrees = true
 
-			_ = p.Query_statement()
+			_ = p.Root()
 
 			require.Equal(t, 0, lexerErrors.errors)
 			require.Equal(t, 0, parserErrors.errors)

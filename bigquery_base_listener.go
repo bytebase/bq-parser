@@ -20,6 +20,30 @@ func (s *BasebigqueryListener) EnterEveryRule(ctx antlr.ParserRuleContext) {}
 // ExitEveryRule is called when any rule is exited.
 func (s *BasebigqueryListener) ExitEveryRule(ctx antlr.ParserRuleContext) {}
 
+// EnterRoot is called when production root is entered.
+func (s *BasebigqueryListener) EnterRoot(ctx *RootContext) {}
+
+// ExitRoot is called when production root is exited.
+func (s *BasebigqueryListener) ExitRoot(ctx *RootContext) {}
+
+// EnterStmtblock is called when production stmtblock is entered.
+func (s *BasebigqueryListener) EnterStmtblock(ctx *StmtblockContext) {}
+
+// ExitStmtblock is called when production stmtblock is exited.
+func (s *BasebigqueryListener) ExitStmtblock(ctx *StmtblockContext) {}
+
+// EnterStmtmulti is called when production stmtmulti is entered.
+func (s *BasebigqueryListener) EnterStmtmulti(ctx *StmtmultiContext) {}
+
+// ExitStmtmulti is called when production stmtmulti is exited.
+func (s *BasebigqueryListener) ExitStmtmulti(ctx *StmtmultiContext) {}
+
+// EnterStmt is called when production stmt is entered.
+func (s *BasebigqueryListener) EnterStmt(ctx *StmtContext) {}
+
+// ExitStmt is called when production stmt is exited.
+func (s *BasebigqueryListener) ExitStmt(ctx *StmtContext) {}
+
 // EnterQuery_statement is called when production query_statement is entered.
 func (s *BasebigqueryListener) EnterQuery_statement(ctx *Query_statementContext) {}
 

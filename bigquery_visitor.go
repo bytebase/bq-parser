@@ -7,6 +7,18 @@ import "github.com/antlr4-go/antlr/v4"
 type bigqueryVisitor interface {
 	antlr.ParseTreeVisitor
 
+	// Visit a parse tree produced by bigqueryParser#root.
+	VisitRoot(ctx *RootContext) interface{}
+
+	// Visit a parse tree produced by bigqueryParser#stmtblock.
+	VisitStmtblock(ctx *StmtblockContext) interface{}
+
+	// Visit a parse tree produced by bigqueryParser#stmtmulti.
+	VisitStmtmulti(ctx *StmtmultiContext) interface{}
+
+	// Visit a parse tree produced by bigqueryParser#stmt.
+	VisitStmt(ctx *StmtContext) interface{}
+
 	// Visit a parse tree produced by bigqueryParser#query_statement.
 	VisitQuery_statement(ctx *Query_statementContext) interface{}
 
