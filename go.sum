@@ -1,0 +1,4 @@
+github.com/bytebase/antlr/v4 v4.0.0-20231103101006-5fe1a93b199f h1:5O8DZOEloYvnAZIdHb31MT9L1Xn163rWlZqRsKqTEFM=
+github.com/bytebase/antlr/v4 v4.0.0-20231103101006-5fe1a93b199f/go.mod h1:pfChB/xh/Unjila75QW7+VU4TSnWnnk9UTnmpPaOR2g=
+golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc h1:mCRnTeVUjcrhlRmO0VK8a6k6Rrf6TF9htwo2pJVSjIU=
+golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc/go.mod h1:V1LtkGg67GoY2N1AnLN78QLrzxkLyJw7RJb1gzOOz9w=
