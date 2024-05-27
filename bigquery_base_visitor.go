@@ -7,6 +7,22 @@ type BasebigqueryVisitor struct {
 	*antlr.BaseParseTreeVisitor
 }
 
+func (v *BasebigqueryVisitor) VisitRoot(ctx *RootContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BasebigqueryVisitor) VisitStmtblock(ctx *StmtblockContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BasebigqueryVisitor) VisitStmtmulti(ctx *StmtmultiContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BasebigqueryVisitor) VisitStmt(ctx *StmtContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
 func (v *BasebigqueryVisitor) VisitQuery_statement(ctx *Query_statementContext) interface{} {
 	return v.VisitChildren(ctx)
 }

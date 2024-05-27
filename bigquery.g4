@@ -5,6 +5,22 @@
  */
 
 grammar bigquery; 
+
+root
+   : stmtblock
+   ;
+
+stmtblock
+   : stmtmulti
+   ;
+
+stmtmulti
+   : (stmt SEMI?)*
+   ;
+
+stmt
+   : query_statement;
+
 // Root statement for a SELECT query
 query_statement : with_statement? query_expr;
 
@@ -320,6 +336,7 @@ keyword : ALL
 // ARRAY and STRUCT included in the list of BQ keywords instead of here
 QUOTE : '\'' ;
 DQOUTE : '"';
+SEMI : ';';
 
 /*
  * BigQuery Keywords:
