@@ -71,7 +71,7 @@ func bigqueryParserInit() {
 	}
 	staticData.PredictionContextCache = antlr.NewPredictionContextCache()
 	staticData.serializedATN = []int32{
-		4, 1, 141, 748, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 2, 3, 7, 3, 2, 4, 7,
+		4, 1, 141, 749, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 2, 3, 7, 3, 2, 4, 7,
 		4, 2, 5, 7, 5, 2, 6, 7, 6, 2, 7, 7, 7, 2, 8, 7, 8, 2, 9, 7, 9, 2, 10, 7,
 		10, 2, 11, 7, 11, 2, 12, 7, 12, 2, 13, 7, 13, 2, 14, 7, 14, 2, 15, 7, 15,
 		2, 16, 7, 16, 2, 17, 7, 17, 2, 18, 7, 18, 2, 19, 7, 19, 2, 20, 7, 20, 2,
@@ -128,74 +128,74 @@ func bigqueryParserInit() {
 		14, 1, 14, 3, 14, 538, 8, 14, 1, 15, 1, 15, 1, 15, 1, 15, 1, 15, 5, 15,
 		545, 8, 15, 10, 15, 12, 15, 548, 9, 15, 1, 15, 1, 15, 1, 16, 1, 16, 1,
 		16, 1, 16, 3, 16, 556, 8, 16, 1, 16, 3, 16, 559, 8, 16, 1, 16, 1, 16, 1,
-		16, 3, 16, 564, 8, 16, 1, 16, 5, 16, 567, 8, 16, 10, 16, 12, 16, 570, 9,
-		16, 1, 16, 1, 16, 1, 17, 1, 17, 1, 17, 1, 17, 3, 17, 578, 8, 17, 1, 17,
-		1, 17, 3, 17, 582, 8, 17, 1, 17, 1, 17, 3, 17, 586, 8, 17, 3, 17, 588,
-		8, 17, 1, 18, 1, 18, 1, 18, 1, 19, 1, 19, 3, 19, 595, 8, 19, 1, 19, 1,
-		19, 1, 19, 1, 19, 3, 19, 601, 8, 19, 1, 20, 1, 20, 1, 20, 1, 20, 1, 20,
-		5, 20, 608, 8, 20, 10, 20, 12, 20, 611, 9, 20, 1, 20, 1, 20, 1, 21, 1,
-		21, 1, 22, 1, 22, 1, 22, 1, 22, 1, 22, 1, 23, 1, 23, 1, 23, 1, 23, 1, 23,
-		1, 24, 1, 24, 1, 25, 1, 25, 1, 26, 1, 26, 1, 27, 1, 27, 1, 28, 1, 28, 1,
-		29, 1, 29, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30,
-		1, 30, 1, 30, 1, 30, 1, 30, 5, 30, 652, 8, 30, 10, 30, 12, 30, 655, 9,
-		30, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31,
-		1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 3, 31, 674, 8, 31, 1,
-		32, 1, 32, 1, 33, 1, 33, 1, 34, 1, 34, 1, 35, 1, 35, 1, 36, 1, 36, 1, 37,
-		1, 37, 1, 38, 1, 38, 1, 39, 1, 39, 1, 40, 1, 40, 1, 41, 1, 41, 1, 42, 1,
-		42, 1, 43, 1, 43, 1, 44, 1, 44, 1, 44, 3, 44, 703, 8, 44, 1, 44, 1, 44,
-		1, 44, 3, 44, 708, 8, 44, 1, 44, 1, 44, 1, 44, 1, 44, 1, 44, 3, 44, 715,
-		8, 44, 1, 45, 1, 45, 3, 45, 719, 8, 45, 1, 46, 1, 46, 1, 47, 1, 47, 1,
-		48, 1, 48, 1, 48, 1, 48, 1, 48, 1, 48, 3, 48, 731, 8, 48, 1, 49, 1, 49,
-		1, 50, 1, 50, 1, 51, 1, 51, 1, 52, 1, 52, 1, 53, 1, 53, 1, 54, 1, 54, 1,
-		54, 1, 55, 1, 55, 1, 55, 0, 3, 2, 8, 24, 56, 0, 2, 4, 6, 8, 10, 12, 14,
-		16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50,
-		52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86,
-		88, 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 0, 8, 2, 0, 30, 30,
-		51, 51, 2, 0, 35, 35, 50, 50, 2, 0, 6, 7, 89, 89, 3, 0, 93, 93, 97, 97,
-		110, 111, 2, 0, 4, 4, 10, 10, 2, 0, 6, 6, 11, 11, 1, 0, 12, 13, 1, 0, 30,
-		131, 827, 0, 113, 1, 0, 0, 0, 2, 134, 1, 0, 0, 0, 4, 150, 1, 0, 0, 0, 6,
-		216, 1, 0, 0, 0, 8, 302, 1, 0, 0, 0, 10, 319, 1, 0, 0, 0, 12, 322, 1, 0,
-		0, 0, 14, 346, 1, 0, 0, 0, 16, 349, 1, 0, 0, 0, 18, 356, 1, 0, 0, 0, 20,
-		372, 1, 0, 0, 0, 22, 378, 1, 0, 0, 0, 24, 426, 1, 0, 0, 0, 26, 510, 1,
-		0, 0, 0, 28, 537, 1, 0, 0, 0, 30, 539, 1, 0, 0, 0, 32, 551, 1, 0, 0, 0,
-		34, 587, 1, 0, 0, 0, 36, 589, 1, 0, 0, 0, 38, 600, 1, 0, 0, 0, 40, 602,
-		1, 0, 0, 0, 42, 614, 1, 0, 0, 0, 44, 616, 1, 0, 0, 0, 46, 621, 1, 0, 0,
-		0, 48, 626, 1, 0, 0, 0, 50, 628, 1, 0, 0, 0, 52, 630, 1, 0, 0, 0, 54, 632,
-		1, 0, 0, 0, 56, 634, 1, 0, 0, 0, 58, 636, 1, 0, 0, 0, 60, 638, 1, 0, 0,
-		0, 62, 673, 1, 0, 0, 0, 64, 675, 1, 0, 0, 0, 66, 677, 1, 0, 0, 0, 68, 679,
-		1, 0, 0, 0, 70, 681, 1, 0, 0, 0, 72, 683, 1, 0, 0, 0, 74, 685, 1, 0, 0,
-		0, 76, 687, 1, 0, 0, 0, 78, 689, 1, 0, 0, 0, 80, 691, 1, 0, 0, 0, 82, 693,
-		1, 0, 0, 0, 84, 695, 1, 0, 0, 0, 86, 697, 1, 0, 0, 0, 88, 714, 1, 0, 0,
-		0, 90, 718, 1, 0, 0, 0, 92, 720, 1, 0, 0, 0, 94, 722, 1, 0, 0, 0, 96, 730,
-		1, 0, 0, 0, 98, 732, 1, 0, 0, 0, 100, 734, 1, 0, 0, 0, 102, 736, 1, 0,
-		0, 0, 104, 738, 1, 0, 0, 0, 106, 740, 1, 0, 0, 0, 108, 742, 1, 0, 0, 0,
-		110, 745, 1, 0, 0, 0, 112, 114, 3, 60, 30, 0, 113, 112, 1, 0, 0, 0, 113,
-		114, 1, 0, 0, 0, 114, 115, 1, 0, 0, 0, 115, 116, 3, 2, 1, 0, 116, 1, 1,
-		0, 0, 0, 117, 118, 6, 1, -1, 0, 118, 120, 3, 4, 2, 0, 119, 121, 3, 18,
-		9, 0, 120, 119, 1, 0, 0, 0, 120, 121, 1, 0, 0, 0, 121, 123, 1, 0, 0, 0,
-		122, 124, 3, 20, 10, 0, 123, 122, 1, 0, 0, 0, 123, 124, 1, 0, 0, 0, 124,
-		135, 1, 0, 0, 0, 125, 126, 5, 1, 0, 0, 126, 127, 3, 2, 1, 0, 127, 129,
-		5, 2, 0, 0, 128, 130, 3, 18, 9, 0, 129, 128, 1, 0, 0, 0, 129, 130, 1, 0,
-		0, 0, 130, 132, 1, 0, 0, 0, 131, 133, 3, 20, 10, 0, 132, 131, 1, 0, 0,
-		0, 132, 133, 1, 0, 0, 0, 133, 135, 1, 0, 0, 0, 134, 117, 1, 0, 0, 0, 134,
-		125, 1, 0, 0, 0, 135, 147, 1, 0, 0, 0, 136, 137, 10, 1, 0, 0, 137, 138,
-		3, 38, 19, 0, 138, 140, 3, 2, 1, 0, 139, 141, 3, 18, 9, 0, 140, 139, 1,
-		0, 0, 0, 140, 141, 1, 0, 0, 0, 141, 143, 1, 0, 0, 0, 142, 144, 3, 20, 10,
-		0, 143, 142, 1, 0, 0, 0, 143, 144, 1, 0, 0, 0, 144, 146, 1, 0, 0, 0, 145,
-		136, 1, 0, 0, 0, 146, 149, 1, 0, 0, 0, 147, 145, 1, 0, 0, 0, 147, 148,
-		1, 0, 0, 0, 148, 3, 1, 0, 0, 0, 149, 147, 1, 0, 0, 0, 150, 152, 5, 112,
-		0, 0, 151, 153, 7, 0, 0, 0, 152, 151, 1, 0, 0, 0, 152, 153, 1, 0, 0, 0,
-		153, 174, 1, 0, 0, 0, 154, 156, 3, 24, 12, 0, 155, 154, 1, 0, 0, 0, 155,
-		156, 1, 0, 0, 0, 156, 158, 1, 0, 0, 0, 157, 159, 5, 3, 0, 0, 158, 157,
-		1, 0, 0, 0, 158, 159, 1, 0, 0, 0, 159, 160, 1, 0, 0, 0, 160, 162, 5, 4,
-		0, 0, 161, 163, 3, 30, 15, 0, 162, 161, 1, 0, 0, 0, 162, 163, 1, 0, 0,
-		0, 163, 165, 1, 0, 0, 0, 164, 166, 3, 32, 16, 0, 165, 164, 1, 0, 0, 0,
-		165, 166, 1, 0, 0, 0, 166, 175, 1, 0, 0, 0, 167, 172, 3, 24, 12, 0, 168,
-		170, 5, 34, 0, 0, 169, 168, 1, 0, 0, 0, 169, 170, 1, 0, 0, 0, 170, 171,
-		1, 0, 0, 0, 171, 173, 3, 64, 32, 0, 172, 169, 1, 0, 0, 0, 172, 173, 1,
-		0, 0, 0, 173, 175, 1, 0, 0, 0, 174, 155, 1, 0, 0, 0, 174, 167, 1, 0, 0,
-		0, 175, 198, 1, 0, 0, 0, 176, 194, 5, 5, 0, 0, 177, 179, 3, 24, 12, 0,
-		178, 177, 1, 0, 0, 0, 178, 179, 1, 0, 0, 0, 179, 180, 1, 0, 0, 0, 180,
+		16, 3, 16, 564, 8, 16, 1, 16, 1, 16, 5, 16, 568, 8, 16, 10, 16, 12, 16,
+		571, 9, 16, 1, 16, 1, 16, 1, 17, 1, 17, 1, 17, 1, 17, 3, 17, 579, 8, 17,
+		1, 17, 1, 17, 3, 17, 583, 8, 17, 1, 17, 1, 17, 3, 17, 587, 8, 17, 3, 17,
+		589, 8, 17, 1, 18, 1, 18, 1, 18, 1, 19, 1, 19, 3, 19, 596, 8, 19, 1, 19,
+		1, 19, 1, 19, 1, 19, 3, 19, 602, 8, 19, 1, 20, 1, 20, 1, 20, 1, 20, 1,
+		20, 5, 20, 609, 8, 20, 10, 20, 12, 20, 612, 9, 20, 1, 20, 1, 20, 1, 21,
+		1, 21, 1, 22, 1, 22, 1, 22, 1, 22, 1, 22, 1, 23, 1, 23, 1, 23, 1, 23, 1,
+		23, 1, 24, 1, 24, 1, 25, 1, 25, 1, 26, 1, 26, 1, 27, 1, 27, 1, 28, 1, 28,
+		1, 29, 1, 29, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1, 30, 1,
+		30, 1, 30, 1, 30, 1, 30, 1, 30, 5, 30, 653, 8, 30, 10, 30, 12, 30, 656,
+		9, 30, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1,
+		31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 1, 31, 3, 31, 675, 8, 31,
+		1, 32, 1, 32, 1, 33, 1, 33, 1, 34, 1, 34, 1, 35, 1, 35, 1, 36, 1, 36, 1,
+		37, 1, 37, 1, 38, 1, 38, 1, 39, 1, 39, 1, 40, 1, 40, 1, 41, 1, 41, 1, 42,
+		1, 42, 1, 43, 1, 43, 1, 44, 1, 44, 1, 44, 3, 44, 704, 8, 44, 1, 44, 1,
+		44, 1, 44, 3, 44, 709, 8, 44, 1, 44, 1, 44, 1, 44, 1, 44, 1, 44, 3, 44,
+		716, 8, 44, 1, 45, 1, 45, 3, 45, 720, 8, 45, 1, 46, 1, 46, 1, 47, 1, 47,
+		1, 48, 1, 48, 1, 48, 1, 48, 1, 48, 1, 48, 3, 48, 732, 8, 48, 1, 49, 1,
+		49, 1, 50, 1, 50, 1, 51, 1, 51, 1, 52, 1, 52, 1, 53, 1, 53, 1, 54, 1, 54,
+		1, 54, 1, 55, 1, 55, 1, 55, 0, 3, 2, 8, 24, 56, 0, 2, 4, 6, 8, 10, 12,
+		14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48,
+		50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84,
+		86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 0, 8, 2, 0, 30,
+		30, 51, 51, 2, 0, 35, 35, 50, 50, 2, 0, 6, 7, 89, 89, 3, 0, 93, 93, 97,
+		97, 110, 111, 2, 0, 4, 4, 10, 10, 2, 0, 6, 6, 11, 11, 1, 0, 12, 13, 1,
+		0, 30, 131, 828, 0, 113, 1, 0, 0, 0, 2, 134, 1, 0, 0, 0, 4, 150, 1, 0,
+		0, 0, 6, 216, 1, 0, 0, 0, 8, 302, 1, 0, 0, 0, 10, 319, 1, 0, 0, 0, 12,
+		322, 1, 0, 0, 0, 14, 346, 1, 0, 0, 0, 16, 349, 1, 0, 0, 0, 18, 356, 1,
+		0, 0, 0, 20, 372, 1, 0, 0, 0, 22, 378, 1, 0, 0, 0, 24, 426, 1, 0, 0, 0,
+		26, 510, 1, 0, 0, 0, 28, 537, 1, 0, 0, 0, 30, 539, 1, 0, 0, 0, 32, 551,
+		1, 0, 0, 0, 34, 588, 1, 0, 0, 0, 36, 590, 1, 0, 0, 0, 38, 601, 1, 0, 0,
+		0, 40, 603, 1, 0, 0, 0, 42, 615, 1, 0, 0, 0, 44, 617, 1, 0, 0, 0, 46, 622,
+		1, 0, 0, 0, 48, 627, 1, 0, 0, 0, 50, 629, 1, 0, 0, 0, 52, 631, 1, 0, 0,
+		0, 54, 633, 1, 0, 0, 0, 56, 635, 1, 0, 0, 0, 58, 637, 1, 0, 0, 0, 60, 639,
+		1, 0, 0, 0, 62, 674, 1, 0, 0, 0, 64, 676, 1, 0, 0, 0, 66, 678, 1, 0, 0,
+		0, 68, 680, 1, 0, 0, 0, 70, 682, 1, 0, 0, 0, 72, 684, 1, 0, 0, 0, 74, 686,
+		1, 0, 0, 0, 76, 688, 1, 0, 0, 0, 78, 690, 1, 0, 0, 0, 80, 692, 1, 0, 0,
+		0, 82, 694, 1, 0, 0, 0, 84, 696, 1, 0, 0, 0, 86, 698, 1, 0, 0, 0, 88, 715,
+		1, 0, 0, 0, 90, 719, 1, 0, 0, 0, 92, 721, 1, 0, 0, 0, 94, 723, 1, 0, 0,
+		0, 96, 731, 1, 0, 0, 0, 98, 733, 1, 0, 0, 0, 100, 735, 1, 0, 0, 0, 102,
+		737, 1, 0, 0, 0, 104, 739, 1, 0, 0, 0, 106, 741, 1, 0, 0, 0, 108, 743,
+		1, 0, 0, 0, 110, 746, 1, 0, 0, 0, 112, 114, 3, 60, 30, 0, 113, 112, 1,
+		0, 0, 0, 113, 114, 1, 0, 0, 0, 114, 115, 1, 0, 0, 0, 115, 116, 3, 2, 1,
+		0, 116, 1, 1, 0, 0, 0, 117, 118, 6, 1, -1, 0, 118, 120, 3, 4, 2, 0, 119,
+		121, 3, 18, 9, 0, 120, 119, 1, 0, 0, 0, 120, 121, 1, 0, 0, 0, 121, 123,
+		1, 0, 0, 0, 122, 124, 3, 20, 10, 0, 123, 122, 1, 0, 0, 0, 123, 124, 1,
+		0, 0, 0, 124, 135, 1, 0, 0, 0, 125, 126, 5, 1, 0, 0, 126, 127, 3, 2, 1,
+		0, 127, 129, 5, 2, 0, 0, 128, 130, 3, 18, 9, 0, 129, 128, 1, 0, 0, 0, 129,
+		130, 1, 0, 0, 0, 130, 132, 1, 0, 0, 0, 131, 133, 3, 20, 10, 0, 132, 131,
+		1, 0, 0, 0, 132, 133, 1, 0, 0, 0, 133, 135, 1, 0, 0, 0, 134, 117, 1, 0,
+		0, 0, 134, 125, 1, 0, 0, 0, 135, 147, 1, 0, 0, 0, 136, 137, 10, 1, 0, 0,
+		137, 138, 3, 38, 19, 0, 138, 140, 3, 2, 1, 0, 139, 141, 3, 18, 9, 0, 140,
+		139, 1, 0, 0, 0, 140, 141, 1, 0, 0, 0, 141, 143, 1, 0, 0, 0, 142, 144,
+		3, 20, 10, 0, 143, 142, 1, 0, 0, 0, 143, 144, 1, 0, 0, 0, 144, 146, 1,
+		0, 0, 0, 145, 136, 1, 0, 0, 0, 146, 149, 1, 0, 0, 0, 147, 145, 1, 0, 0,
+		0, 147, 148, 1, 0, 0, 0, 148, 3, 1, 0, 0, 0, 149, 147, 1, 0, 0, 0, 150,
+		152, 5, 112, 0, 0, 151, 153, 7, 0, 0, 0, 152, 151, 1, 0, 0, 0, 152, 153,
+		1, 0, 0, 0, 153, 174, 1, 0, 0, 0, 154, 156, 3, 24, 12, 0, 155, 154, 1,
+		0, 0, 0, 155, 156, 1, 0, 0, 0, 156, 158, 1, 0, 0, 0, 157, 159, 5, 3, 0,
+		0, 158, 157, 1, 0, 0, 0, 158, 159, 1, 0, 0, 0, 159, 160, 1, 0, 0, 0, 160,
+		162, 5, 4, 0, 0, 161, 163, 3, 30, 15, 0, 162, 161, 1, 0, 0, 0, 162, 163,
+		1, 0, 0, 0, 163, 165, 1, 0, 0, 0, 164, 166, 3, 32, 16, 0, 165, 164, 1,
+		0, 0, 0, 165, 166, 1, 0, 0, 0, 166, 175, 1, 0, 0, 0, 167, 172, 3, 24, 12,
+		0, 168, 170, 5, 34, 0, 0, 169, 168, 1, 0, 0, 0, 169, 170, 1, 0, 0, 0, 170,
+		171, 1, 0, 0, 0, 171, 173, 3, 64, 32, 0, 172, 169, 1, 0, 0, 0, 172, 173,
+		1, 0, 0, 0, 173, 175, 1, 0, 0, 0, 174, 155, 1, 0, 0, 0, 174, 167, 1, 0,
+		0, 0, 175, 198, 1, 0, 0, 0, 176, 194, 5, 5, 0, 0, 177, 179, 3, 24, 12,
+		0, 178, 177, 1, 0, 0, 0, 178, 179, 1, 0, 0, 0, 179, 180, 1, 0, 0, 0, 180,
 		182, 5, 4, 0, 0, 181, 183, 3, 30, 15, 0, 182, 181, 1, 0, 0, 0, 182, 183,
 		1, 0, 0, 0, 183, 185, 1, 0, 0, 0, 184, 186, 3, 32, 16, 0, 185, 184, 1,
 		0, 0, 0, 185, 186, 1, 0, 0, 0, 186, 195, 1, 0, 0, 0, 187, 192, 3, 24, 12,
@@ -342,80 +342,80 @@ func bigqueryParserInit() {
 		5, 2, 0, 0, 550, 31, 1, 0, 0, 0, 551, 552, 5, 105, 0, 0, 552, 553, 5, 1,
 		0, 0, 553, 558, 3, 24, 12, 0, 554, 556, 5, 34, 0, 0, 555, 554, 1, 0, 0,
 		0, 555, 556, 1, 0, 0, 0, 556, 557, 1, 0, 0, 0, 557, 559, 3, 64, 32, 0,
-		558, 555, 1, 0, 0, 0, 558, 559, 1, 0, 0, 0, 559, 560, 1, 0, 0, 0, 560,
-		561, 5, 5, 0, 0, 561, 568, 3, 24, 12, 0, 562, 564, 5, 34, 0, 0, 563, 562,
-		1, 0, 0, 0, 563, 564, 1, 0, 0, 0, 564, 565, 1, 0, 0, 0, 565, 567, 3, 64,
-		32, 0, 566, 563, 1, 0, 0, 0, 567, 570, 1, 0, 0, 0, 568, 566, 1, 0, 0, 0,
-		568, 569, 1, 0, 0, 0, 569, 571, 1, 0, 0, 0, 570, 568, 1, 0, 0, 0, 571,
-		572, 5, 2, 0, 0, 572, 33, 1, 0, 0, 0, 573, 588, 5, 74, 0, 0, 574, 588,
-		5, 45, 0, 0, 575, 577, 5, 65, 0, 0, 576, 578, 5, 98, 0, 0, 577, 576, 1,
-		0, 0, 0, 577, 578, 1, 0, 0, 0, 578, 588, 1, 0, 0, 0, 579, 581, 5, 81, 0,
-		0, 580, 582, 5, 98, 0, 0, 581, 580, 1, 0, 0, 0, 581, 582, 1, 0, 0, 0, 582,
-		588, 1, 0, 0, 0, 583, 585, 5, 107, 0, 0, 584, 586, 5, 98, 0, 0, 585, 584,
-		1, 0, 0, 0, 585, 586, 1, 0, 0, 0, 586, 588, 1, 0, 0, 0, 587, 573, 1, 0,
-		0, 0, 587, 574, 1, 0, 0, 0, 587, 575, 1, 0, 0, 0, 587, 579, 1, 0, 0, 0,
-		587, 583, 1, 0, 0, 0, 588, 35, 1, 0, 0, 0, 589, 590, 5, 94, 0, 0, 590,
-		591, 3, 50, 25, 0, 591, 37, 1, 0, 0, 0, 592, 594, 5, 124, 0, 0, 593, 595,
-		7, 0, 0, 0, 594, 593, 1, 0, 0, 0, 594, 595, 1, 0, 0, 0, 595, 601, 1, 0,
-		0, 0, 596, 597, 5, 75, 0, 0, 597, 601, 5, 51, 0, 0, 598, 599, 5, 56, 0,
-		0, 599, 601, 5, 51, 0, 0, 600, 592, 1, 0, 0, 0, 600, 596, 1, 0, 0, 0, 600,
-		598, 1, 0, 0, 0, 601, 39, 1, 0, 0, 0, 602, 603, 5, 126, 0, 0, 603, 604,
-		5, 1, 0, 0, 604, 609, 3, 78, 39, 0, 605, 606, 5, 5, 0, 0, 606, 608, 3,
-		78, 39, 0, 607, 605, 1, 0, 0, 0, 608, 611, 1, 0, 0, 0, 609, 607, 1, 0,
-		0, 0, 609, 610, 1, 0, 0, 0, 610, 612, 1, 0, 0, 0, 611, 609, 1, 0, 0, 0,
-		612, 613, 5, 2, 0, 0, 613, 41, 1, 0, 0, 0, 614, 615, 1, 0, 0, 0, 615, 43,
-		1, 0, 0, 0, 616, 617, 5, 115, 0, 0, 617, 618, 5, 18, 0, 0, 618, 619, 3,
-		74, 37, 0, 619, 620, 5, 19, 0, 0, 620, 45, 1, 0, 0, 0, 621, 622, 5, 33,
-		0, 0, 622, 623, 5, 18, 0, 0, 623, 624, 3, 74, 37, 0, 624, 625, 5, 19, 0,
-		0, 625, 47, 1, 0, 0, 0, 626, 627, 1, 0, 0, 0, 627, 49, 1, 0, 0, 0, 628,
-		629, 3, 24, 12, 0, 629, 51, 1, 0, 0, 0, 630, 631, 1, 0, 0, 0, 631, 53,
-		1, 0, 0, 0, 632, 633, 1, 0, 0, 0, 633, 55, 1, 0, 0, 0, 634, 635, 3, 90,
-		45, 0, 635, 57, 1, 0, 0, 0, 636, 637, 3, 90, 45, 0, 637, 59, 1, 0, 0, 0,
-		638, 639, 5, 130, 0, 0, 639, 640, 3, 70, 35, 0, 640, 641, 5, 34, 0, 0,
-		641, 642, 5, 1, 0, 0, 642, 643, 3, 2, 1, 0, 643, 653, 5, 2, 0, 0, 644,
-		645, 5, 5, 0, 0, 645, 646, 3, 70, 35, 0, 646, 647, 5, 34, 0, 0, 647, 648,
-		5, 1, 0, 0, 648, 649, 3, 2, 1, 0, 649, 650, 5, 2, 0, 0, 650, 652, 1, 0,
-		0, 0, 651, 644, 1, 0, 0, 0, 652, 655, 1, 0, 0, 0, 653, 651, 1, 0, 0, 0,
-		653, 654, 1, 0, 0, 0, 654, 61, 1, 0, 0, 0, 655, 653, 1, 0, 0, 0, 656, 674,
-		5, 140, 0, 0, 657, 658, 5, 29, 0, 0, 658, 659, 3, 62, 31, 0, 659, 660,
-		5, 29, 0, 0, 660, 674, 1, 0, 0, 0, 661, 662, 5, 1, 0, 0, 662, 663, 3, 62,
-		31, 0, 663, 664, 5, 2, 0, 0, 664, 674, 1, 0, 0, 0, 665, 666, 5, 24, 0,
-		0, 666, 667, 3, 62, 31, 0, 667, 668, 5, 24, 0, 0, 668, 674, 1, 0, 0, 0,
-		669, 670, 5, 28, 0, 0, 670, 671, 3, 62, 31, 0, 671, 672, 5, 28, 0, 0, 672,
-		674, 1, 0, 0, 0, 673, 656, 1, 0, 0, 0, 673, 657, 1, 0, 0, 0, 673, 661,
-		1, 0, 0, 0, 673, 665, 1, 0, 0, 0, 673, 669, 1, 0, 0, 0, 674, 63, 1, 0,
-		0, 0, 675, 676, 3, 62, 31, 0, 676, 65, 1, 0, 0, 0, 677, 678, 3, 62, 31,
-		0, 678, 67, 1, 0, 0, 0, 679, 680, 3, 62, 31, 0, 680, 69, 1, 0, 0, 0, 681,
-		682, 3, 62, 31, 0, 682, 71, 1, 0, 0, 0, 683, 684, 3, 62, 31, 0, 684, 73,
-		1, 0, 0, 0, 685, 686, 3, 62, 31, 0, 686, 75, 1, 0, 0, 0, 687, 688, 3, 62,
-		31, 0, 688, 77, 1, 0, 0, 0, 689, 690, 3, 62, 31, 0, 690, 79, 1, 0, 0, 0,
-		691, 692, 3, 62, 31, 0, 692, 81, 1, 0, 0, 0, 693, 694, 3, 62, 31, 0, 694,
-		83, 1, 0, 0, 0, 695, 696, 3, 62, 31, 0, 696, 85, 1, 0, 0, 0, 697, 698,
-		3, 62, 31, 0, 698, 87, 1, 0, 0, 0, 699, 700, 3, 82, 41, 0, 700, 701, 5,
-		3, 0, 0, 701, 703, 1, 0, 0, 0, 702, 699, 1, 0, 0, 0, 702, 703, 1, 0, 0,
-		0, 703, 704, 1, 0, 0, 0, 704, 705, 3, 72, 36, 0, 705, 706, 5, 3, 0, 0,
-		706, 708, 1, 0, 0, 0, 707, 702, 1, 0, 0, 0, 707, 708, 1, 0, 0, 0, 708,
-		709, 1, 0, 0, 0, 709, 715, 3, 86, 43, 0, 710, 711, 5, 24, 0, 0, 711, 712,
-		3, 88, 44, 0, 712, 713, 5, 24, 0, 0, 713, 715, 1, 0, 0, 0, 714, 707, 1,
-		0, 0, 0, 714, 710, 1, 0, 0, 0, 715, 89, 1, 0, 0, 0, 716, 719, 3, 92, 46,
-		0, 717, 719, 3, 94, 47, 0, 718, 716, 1, 0, 0, 0, 718, 717, 1, 0, 0, 0,
-		719, 91, 1, 0, 0, 0, 720, 721, 5, 25, 0, 0, 721, 93, 1, 0, 0, 0, 722, 723,
-		5, 26, 0, 0, 723, 95, 1, 0, 0, 0, 724, 731, 3, 98, 49, 0, 725, 731, 3,
-		100, 50, 0, 726, 731, 3, 102, 51, 0, 727, 731, 3, 104, 52, 0, 728, 731,
-		3, 106, 53, 0, 729, 731, 3, 108, 54, 0, 730, 724, 1, 0, 0, 0, 730, 725,
-		1, 0, 0, 0, 730, 726, 1, 0, 0, 0, 730, 727, 1, 0, 0, 0, 730, 728, 1, 0,
-		0, 0, 730, 729, 1, 0, 0, 0, 731, 97, 1, 0, 0, 0, 732, 733, 5, 135, 0, 0,
-		733, 99, 1, 0, 0, 0, 734, 735, 5, 136, 0, 0, 735, 101, 1, 0, 0, 0, 736,
-		737, 5, 137, 0, 0, 737, 103, 1, 0, 0, 0, 738, 739, 5, 138, 0, 0, 739, 105,
-		1, 0, 0, 0, 740, 741, 5, 139, 0, 0, 741, 107, 1, 0, 0, 0, 742, 743, 3,
-		74, 37, 0, 743, 744, 5, 135, 0, 0, 744, 109, 1, 0, 0, 0, 745, 746, 7, 7,
-		0, 0, 746, 111, 1, 0, 0, 0, 95, 113, 120, 123, 129, 132, 134, 140, 143,
-		147, 152, 155, 158, 162, 165, 169, 172, 174, 178, 182, 185, 189, 192, 194,
-		198, 202, 205, 208, 211, 214, 222, 228, 231, 239, 245, 248, 256, 259, 264,
-		267, 274, 277, 282, 285, 289, 292, 297, 300, 302, 306, 312, 316, 329, 339,
-		344, 360, 365, 369, 376, 396, 401, 411, 415, 426, 455, 459, 466, 478, 483,
-		492, 503, 505, 507, 524, 529, 534, 537, 546, 555, 558, 563, 568, 577, 581,
-		585, 587, 594, 600, 609, 653, 673, 702, 707, 714, 718, 730,
+		558, 555, 1, 0, 0, 0, 558, 559, 1, 0, 0, 0, 559, 569, 1, 0, 0, 0, 560,
+		561, 5, 5, 0, 0, 561, 563, 3, 24, 12, 0, 562, 564, 5, 34, 0, 0, 563, 562,
+		1, 0, 0, 0, 563, 564, 1, 0, 0, 0, 564, 565, 1, 0, 0, 0, 565, 566, 3, 64,
+		32, 0, 566, 568, 1, 0, 0, 0, 567, 560, 1, 0, 0, 0, 568, 571, 1, 0, 0, 0,
+		569, 567, 1, 0, 0, 0, 569, 570, 1, 0, 0, 0, 570, 572, 1, 0, 0, 0, 571,
+		569, 1, 0, 0, 0, 572, 573, 5, 2, 0, 0, 573, 33, 1, 0, 0, 0, 574, 589, 5,
+		74, 0, 0, 575, 589, 5, 45, 0, 0, 576, 578, 5, 65, 0, 0, 577, 579, 5, 98,
+		0, 0, 578, 577, 1, 0, 0, 0, 578, 579, 1, 0, 0, 0, 579, 589, 1, 0, 0, 0,
+		580, 582, 5, 81, 0, 0, 581, 583, 5, 98, 0, 0, 582, 581, 1, 0, 0, 0, 582,
+		583, 1, 0, 0, 0, 583, 589, 1, 0, 0, 0, 584, 586, 5, 107, 0, 0, 585, 587,
+		5, 98, 0, 0, 586, 585, 1, 0, 0, 0, 586, 587, 1, 0, 0, 0, 587, 589, 1, 0,
+		0, 0, 588, 574, 1, 0, 0, 0, 588, 575, 1, 0, 0, 0, 588, 576, 1, 0, 0, 0,
+		588, 580, 1, 0, 0, 0, 588, 584, 1, 0, 0, 0, 589, 35, 1, 0, 0, 0, 590, 591,
+		5, 94, 0, 0, 591, 592, 3, 50, 25, 0, 592, 37, 1, 0, 0, 0, 593, 595, 5,
+		124, 0, 0, 594, 596, 7, 0, 0, 0, 595, 594, 1, 0, 0, 0, 595, 596, 1, 0,
+		0, 0, 596, 602, 1, 0, 0, 0, 597, 598, 5, 75, 0, 0, 598, 602, 5, 51, 0,
+		0, 599, 600, 5, 56, 0, 0, 600, 602, 5, 51, 0, 0, 601, 593, 1, 0, 0, 0,
+		601, 597, 1, 0, 0, 0, 601, 599, 1, 0, 0, 0, 602, 39, 1, 0, 0, 0, 603, 604,
+		5, 126, 0, 0, 604, 605, 5, 1, 0, 0, 605, 610, 3, 78, 39, 0, 606, 607, 5,
+		5, 0, 0, 607, 609, 3, 78, 39, 0, 608, 606, 1, 0, 0, 0, 609, 612, 1, 0,
+		0, 0, 610, 608, 1, 0, 0, 0, 610, 611, 1, 0, 0, 0, 611, 613, 1, 0, 0, 0,
+		612, 610, 1, 0, 0, 0, 613, 614, 5, 2, 0, 0, 614, 41, 1, 0, 0, 0, 615, 616,
+		1, 0, 0, 0, 616, 43, 1, 0, 0, 0, 617, 618, 5, 115, 0, 0, 618, 619, 5, 18,
+		0, 0, 619, 620, 3, 74, 37, 0, 620, 621, 5, 19, 0, 0, 621, 45, 1, 0, 0,
+		0, 622, 623, 5, 33, 0, 0, 623, 624, 5, 18, 0, 0, 624, 625, 3, 74, 37, 0,
+		625, 626, 5, 19, 0, 0, 626, 47, 1, 0, 0, 0, 627, 628, 1, 0, 0, 0, 628,
+		49, 1, 0, 0, 0, 629, 630, 3, 24, 12, 0, 630, 51, 1, 0, 0, 0, 631, 632,
+		1, 0, 0, 0, 632, 53, 1, 0, 0, 0, 633, 634, 1, 0, 0, 0, 634, 55, 1, 0, 0,
+		0, 635, 636, 3, 90, 45, 0, 636, 57, 1, 0, 0, 0, 637, 638, 3, 90, 45, 0,
+		638, 59, 1, 0, 0, 0, 639, 640, 5, 130, 0, 0, 640, 641, 3, 70, 35, 0, 641,
+		642, 5, 34, 0, 0, 642, 643, 5, 1, 0, 0, 643, 644, 3, 2, 1, 0, 644, 654,
+		5, 2, 0, 0, 645, 646, 5, 5, 0, 0, 646, 647, 3, 70, 35, 0, 647, 648, 5,
+		34, 0, 0, 648, 649, 5, 1, 0, 0, 649, 650, 3, 2, 1, 0, 650, 651, 5, 2, 0,
+		0, 651, 653, 1, 0, 0, 0, 652, 645, 1, 0, 0, 0, 653, 656, 1, 0, 0, 0, 654,
+		652, 1, 0, 0, 0, 654, 655, 1, 0, 0, 0, 655, 61, 1, 0, 0, 0, 656, 654, 1,
+		0, 0, 0, 657, 675, 5, 140, 0, 0, 658, 659, 5, 29, 0, 0, 659, 660, 3, 62,
+		31, 0, 660, 661, 5, 29, 0, 0, 661, 675, 1, 0, 0, 0, 662, 663, 5, 1, 0,
+		0, 663, 664, 3, 62, 31, 0, 664, 665, 5, 2, 0, 0, 665, 675, 1, 0, 0, 0,
+		666, 667, 5, 24, 0, 0, 667, 668, 3, 62, 31, 0, 668, 669, 5, 24, 0, 0, 669,
+		675, 1, 0, 0, 0, 670, 671, 5, 28, 0, 0, 671, 672, 3, 62, 31, 0, 672, 673,
+		5, 28, 0, 0, 673, 675, 1, 0, 0, 0, 674, 657, 1, 0, 0, 0, 674, 658, 1, 0,
+		0, 0, 674, 662, 1, 0, 0, 0, 674, 666, 1, 0, 0, 0, 674, 670, 1, 0, 0, 0,
+		675, 63, 1, 0, 0, 0, 676, 677, 3, 62, 31, 0, 677, 65, 1, 0, 0, 0, 678,
+		679, 3, 62, 31, 0, 679, 67, 1, 0, 0, 0, 680, 681, 3, 62, 31, 0, 681, 69,
+		1, 0, 0, 0, 682, 683, 3, 62, 31, 0, 683, 71, 1, 0, 0, 0, 684, 685, 3, 62,
+		31, 0, 685, 73, 1, 0, 0, 0, 686, 687, 3, 62, 31, 0, 687, 75, 1, 0, 0, 0,
+		688, 689, 3, 62, 31, 0, 689, 77, 1, 0, 0, 0, 690, 691, 3, 62, 31, 0, 691,
+		79, 1, 0, 0, 0, 692, 693, 3, 62, 31, 0, 693, 81, 1, 0, 0, 0, 694, 695,
+		3, 62, 31, 0, 695, 83, 1, 0, 0, 0, 696, 697, 3, 62, 31, 0, 697, 85, 1,
+		0, 0, 0, 698, 699, 3, 62, 31, 0, 699, 87, 1, 0, 0, 0, 700, 701, 3, 82,
+		41, 0, 701, 702, 5, 3, 0, 0, 702, 704, 1, 0, 0, 0, 703, 700, 1, 0, 0, 0,
+		703, 704, 1, 0, 0, 0, 704, 705, 1, 0, 0, 0, 705, 706, 3, 72, 36, 0, 706,
+		707, 5, 3, 0, 0, 707, 709, 1, 0, 0, 0, 708, 703, 1, 0, 0, 0, 708, 709,
+		1, 0, 0, 0, 709, 710, 1, 0, 0, 0, 710, 716, 3, 86, 43, 0, 711, 712, 5,
+		24, 0, 0, 712, 713, 3, 88, 44, 0, 713, 714, 5, 24, 0, 0, 714, 716, 1, 0,
+		0, 0, 715, 708, 1, 0, 0, 0, 715, 711, 1, 0, 0, 0, 716, 89, 1, 0, 0, 0,
+		717, 720, 3, 92, 46, 0, 718, 720, 3, 94, 47, 0, 719, 717, 1, 0, 0, 0, 719,
+		718, 1, 0, 0, 0, 720, 91, 1, 0, 0, 0, 721, 722, 5, 25, 0, 0, 722, 93, 1,
+		0, 0, 0, 723, 724, 5, 26, 0, 0, 724, 95, 1, 0, 0, 0, 725, 732, 3, 98, 49,
+		0, 726, 732, 3, 100, 50, 0, 727, 732, 3, 102, 51, 0, 728, 732, 3, 104,
+		52, 0, 729, 732, 3, 106, 53, 0, 730, 732, 3, 108, 54, 0, 731, 725, 1, 0,
+		0, 0, 731, 726, 1, 0, 0, 0, 731, 727, 1, 0, 0, 0, 731, 728, 1, 0, 0, 0,
+		731, 729, 1, 0, 0, 0, 731, 730, 1, 0, 0, 0, 732, 97, 1, 0, 0, 0, 733, 734,
+		5, 135, 0, 0, 734, 99, 1, 0, 0, 0, 735, 736, 5, 136, 0, 0, 736, 101, 1,
+		0, 0, 0, 737, 738, 5, 137, 0, 0, 738, 103, 1, 0, 0, 0, 739, 740, 5, 138,
+		0, 0, 740, 105, 1, 0, 0, 0, 741, 742, 5, 139, 0, 0, 742, 107, 1, 0, 0,
+		0, 743, 744, 3, 74, 37, 0, 744, 745, 5, 135, 0, 0, 745, 109, 1, 0, 0, 0,
+		746, 747, 7, 7, 0, 0, 747, 111, 1, 0, 0, 0, 95, 113, 120, 123, 129, 132,
+		134, 140, 143, 147, 152, 155, 158, 162, 165, 169, 172, 174, 178, 182, 185,
+		189, 192, 194, 198, 202, 205, 208, 211, 214, 222, 228, 231, 239, 245, 248,
+		256, 259, 264, 267, 274, 277, 282, 285, 289, 292, 297, 300, 302, 306, 312,
+		316, 329, 339, 344, 360, 365, 369, 376, 396, 401, 411, 415, 426, 455, 459,
+		466, 478, 483, 492, 503, 505, 507, 524, 529, 534, 537, 546, 555, 558, 563,
+		569, 578, 582, 586, 588, 595, 601, 610, 654, 674, 703, 708, 715, 719, 731,
 	}
 	deserializer := antlr.NewATNDeserializer(nil)
 	staticData.atn = deserializer.Deserialize(staticData.serializedATN)
@@ -6377,27 +6377,27 @@ func (p *bigqueryParser) Replace_statement() (localctx IReplace_statementContext
 		}
 
 	}
-
-	{
-		p.SetState(560)
-		p.Match(bigqueryParserT__4)
-		if p.HasError() {
-			// Recognition error - abort rule
-			goto errorExit
-		}
-	}
-	{
-		p.SetState(561)
-		p.expr(0)
-	}
-	p.SetState(568)
+	p.SetState(569)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
 	}
 	_la = p.GetTokenStream().LA(1)
 
-	for ((int64(_la) & ^0x3f) == 0 && ((int64(1)<<_la)&18001952770) != 0) || _la == bigqueryParserID {
+	for _la == bigqueryParserT__4 {
+		{
+			p.SetState(560)
+			p.Match(bigqueryParserT__4)
+			if p.HasError() {
+				// Recognition error - abort rule
+				goto errorExit
+			}
+		}
+		{
+			p.SetState(561)
+			p.expr(0)
+		}
+
 		p.SetState(563)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
@@ -6421,16 +6421,15 @@ func (p *bigqueryParser) Replace_statement() (localctx IReplace_statementContext
 			p.Alias_name()
 		}
 
-		p.SetState(570)
+		p.SetState(571)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
 		}
 		_la = p.GetTokenStream().LA(1)
 	}
-
 	{
-		p.SetState(571)
+		p.SetState(572)
 		p.Match(bigqueryParserT__1)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -6561,7 +6560,7 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 	p.EnterRule(localctx, 34, bigqueryParserRULE_join_type)
 	var _la int
 
-	p.SetState(587)
+	p.SetState(588)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -6571,7 +6570,7 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 	case bigqueryParserINNER:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(573)
+			p.SetState(574)
 			p.Match(bigqueryParserINNER)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -6582,7 +6581,7 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 	case bigqueryParserCROSS:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(574)
+			p.SetState(575)
 			p.Match(bigqueryParserCROSS)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -6593,14 +6592,14 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 	case bigqueryParserFULL:
 		p.EnterOuterAlt(localctx, 3)
 		{
-			p.SetState(575)
+			p.SetState(576)
 			p.Match(bigqueryParserFULL)
 			if p.HasError() {
 				// Recognition error - abort rule
 				goto errorExit
 			}
 		}
-		p.SetState(577)
+		p.SetState(578)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -6609,7 +6608,7 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 
 		if _la == bigqueryParserOUTER {
 			{
-				p.SetState(576)
+				p.SetState(577)
 				p.Match(bigqueryParserOUTER)
 				if p.HasError() {
 					// Recognition error - abort rule
@@ -6622,14 +6621,14 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 	case bigqueryParserLEFT:
 		p.EnterOuterAlt(localctx, 4)
 		{
-			p.SetState(579)
+			p.SetState(580)
 			p.Match(bigqueryParserLEFT)
 			if p.HasError() {
 				// Recognition error - abort rule
 				goto errorExit
 			}
 		}
-		p.SetState(581)
+		p.SetState(582)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -6638,7 +6637,7 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 
 		if _la == bigqueryParserOUTER {
 			{
-				p.SetState(580)
+				p.SetState(581)
 				p.Match(bigqueryParserOUTER)
 				if p.HasError() {
 					// Recognition error - abort rule
@@ -6651,14 +6650,14 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 	case bigqueryParserRIGHT:
 		p.EnterOuterAlt(localctx, 5)
 		{
-			p.SetState(583)
+			p.SetState(584)
 			p.Match(bigqueryParserRIGHT)
 			if p.HasError() {
 				// Recognition error - abort rule
 				goto errorExit
 			}
 		}
-		p.SetState(585)
+		p.SetState(586)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -6667,7 +6666,7 @@ func (p *bigqueryParser) Join_type() (localctx IJoin_typeContext) {
 
 		if _la == bigqueryParserOUTER {
 			{
-				p.SetState(584)
+				p.SetState(585)
 				p.Match(bigqueryParserOUTER)
 				if p.HasError() {
 					// Recognition error - abort rule
@@ -6797,7 +6796,7 @@ func (p *bigqueryParser) On_clause() (localctx IOn_clauseContext) {
 	p.EnterRule(localctx, 36, bigqueryParserRULE_on_clause)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(589)
+		p.SetState(590)
 		p.Match(bigqueryParserON)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -6805,7 +6804,7 @@ func (p *bigqueryParser) On_clause() (localctx IOn_clauseContext) {
 		}
 	}
 	{
-		p.SetState(590)
+		p.SetState(591)
 		p.Bool_expression()
 	}
 
@@ -6927,7 +6926,7 @@ func (p *bigqueryParser) Set_op() (localctx ISet_opContext) {
 	p.EnterRule(localctx, 38, bigqueryParserRULE_set_op)
 	var _la int
 
-	p.SetState(600)
+	p.SetState(601)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -6937,14 +6936,14 @@ func (p *bigqueryParser) Set_op() (localctx ISet_opContext) {
 	case bigqueryParserUNION:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(592)
+			p.SetState(593)
 			p.Match(bigqueryParserUNION)
 			if p.HasError() {
 				// Recognition error - abort rule
 				goto errorExit
 			}
 		}
-		p.SetState(594)
+		p.SetState(595)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -6953,7 +6952,7 @@ func (p *bigqueryParser) Set_op() (localctx ISet_opContext) {
 
 		if _la == bigqueryParserALL || _la == bigqueryParserDISTINCT {
 			{
-				p.SetState(593)
+				p.SetState(594)
 				_la = p.GetTokenStream().LA(1)
 
 				if !(_la == bigqueryParserALL || _la == bigqueryParserDISTINCT) {
@@ -6969,7 +6968,7 @@ func (p *bigqueryParser) Set_op() (localctx ISet_opContext) {
 	case bigqueryParserINTERSECT:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(596)
+			p.SetState(597)
 			p.Match(bigqueryParserINTERSECT)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -6977,7 +6976,7 @@ func (p *bigqueryParser) Set_op() (localctx ISet_opContext) {
 			}
 		}
 		{
-			p.SetState(597)
+			p.SetState(598)
 			p.Match(bigqueryParserDISTINCT)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -6988,7 +6987,7 @@ func (p *bigqueryParser) Set_op() (localctx ISet_opContext) {
 	case bigqueryParserEXCEPT:
 		p.EnterOuterAlt(localctx, 3)
 		{
-			p.SetState(598)
+			p.SetState(599)
 			p.Match(bigqueryParserEXCEPT)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -6996,7 +6995,7 @@ func (p *bigqueryParser) Set_op() (localctx ISet_opContext) {
 			}
 		}
 		{
-			p.SetState(599)
+			p.SetState(600)
 			p.Match(bigqueryParserDISTINCT)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -7152,7 +7151,7 @@ func (p *bigqueryParser) Using_clause() (localctx IUsing_clauseContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(602)
+		p.SetState(603)
 		p.Match(bigqueryParserUSING)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7160,7 +7159,7 @@ func (p *bigqueryParser) Using_clause() (localctx IUsing_clauseContext) {
 		}
 	}
 	{
-		p.SetState(603)
+		p.SetState(604)
 		p.Match(bigqueryParserT__0)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7168,10 +7167,10 @@ func (p *bigqueryParser) Using_clause() (localctx IUsing_clauseContext) {
 		}
 	}
 	{
-		p.SetState(604)
+		p.SetState(605)
 		p.Join_name()
 	}
-	p.SetState(609)
+	p.SetState(610)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -7180,7 +7179,7 @@ func (p *bigqueryParser) Using_clause() (localctx IUsing_clauseContext) {
 
 	for _la == bigqueryParserT__4 {
 		{
-			p.SetState(605)
+			p.SetState(606)
 			p.Match(bigqueryParserT__4)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -7188,11 +7187,11 @@ func (p *bigqueryParser) Using_clause() (localctx IUsing_clauseContext) {
 			}
 		}
 		{
-			p.SetState(606)
+			p.SetState(607)
 			p.Join_name()
 		}
 
-		p.SetState(611)
+		p.SetState(612)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -7200,7 +7199,7 @@ func (p *bigqueryParser) Using_clause() (localctx IUsing_clauseContext) {
 		_la = p.GetTokenStream().LA(1)
 	}
 	{
-		p.SetState(612)
+		p.SetState(613)
 		p.Match(bigqueryParserT__1)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7412,7 +7411,7 @@ func (p *bigqueryParser) Sstruct() (localctx ISstructContext) {
 	p.EnterRule(localctx, 44, bigqueryParserRULE_sstruct)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(616)
+		p.SetState(617)
 		p.Match(bigqueryParserSSTRUCT)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7420,7 +7419,7 @@ func (p *bigqueryParser) Sstruct() (localctx ISstructContext) {
 		}
 	}
 	{
-		p.SetState(617)
+		p.SetState(618)
 		p.Match(bigqueryParserT__17)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7428,11 +7427,11 @@ func (p *bigqueryParser) Sstruct() (localctx ISstructContext) {
 		}
 	}
 	{
-		p.SetState(618)
+		p.SetState(619)
 		p.Datatype_name()
 	}
 	{
-		p.SetState(619)
+		p.SetState(620)
 		p.Match(bigqueryParserT__18)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7555,7 +7554,7 @@ func (p *bigqueryParser) Array_expr() (localctx IArray_exprContext) {
 	p.EnterRule(localctx, 46, bigqueryParserRULE_array_expr)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(621)
+		p.SetState(622)
 		p.Match(bigqueryParserARRAY)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7563,7 +7562,7 @@ func (p *bigqueryParser) Array_expr() (localctx IArray_exprContext) {
 		}
 	}
 	{
-		p.SetState(622)
+		p.SetState(623)
 		p.Match(bigqueryParserT__17)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7571,11 +7570,11 @@ func (p *bigqueryParser) Array_expr() (localctx IArray_exprContext) {
 		}
 	}
 	{
-		p.SetState(623)
+		p.SetState(624)
 		p.Datatype_name()
 	}
 	{
-		p.SetState(624)
+		p.SetState(625)
 		p.Match(bigqueryParserT__18)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -7782,7 +7781,7 @@ func (p *bigqueryParser) Bool_expression() (localctx IBool_expressionContext) {
 	p.EnterRule(localctx, 50, bigqueryParserRULE_bool_expression)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(628)
+		p.SetState(629)
 		p.expr(0)
 	}
 
@@ -8074,7 +8073,7 @@ func (p *bigqueryParser) Count() (localctx ICountContext) {
 	p.EnterRule(localctx, 56, bigqueryParserRULE_count)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(634)
+		p.SetState(635)
 		p.Number()
 	}
 
@@ -8188,7 +8187,7 @@ func (p *bigqueryParser) Skip_rows() (localctx ISkip_rowsContext) {
 	p.EnterRule(localctx, 58, bigqueryParserRULE_skip_rows)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(636)
+		p.SetState(637)
 		p.Number()
 	}
 
@@ -8388,7 +8387,7 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(638)
+		p.SetState(639)
 		p.Match(bigqueryParserWITH)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -8396,11 +8395,11 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 		}
 	}
 	{
-		p.SetState(639)
+		p.SetState(640)
 		p.Cte_name()
 	}
 	{
-		p.SetState(640)
+		p.SetState(641)
 		p.Match(bigqueryParserAS)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -8408,7 +8407,7 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 		}
 	}
 	{
-		p.SetState(641)
+		p.SetState(642)
 		p.Match(bigqueryParserT__0)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -8416,18 +8415,18 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 		}
 	}
 	{
-		p.SetState(642)
+		p.SetState(643)
 		p.query_expr(0)
 	}
 	{
-		p.SetState(643)
+		p.SetState(644)
 		p.Match(bigqueryParserT__1)
 		if p.HasError() {
 			// Recognition error - abort rule
 			goto errorExit
 		}
 	}
-	p.SetState(653)
+	p.SetState(654)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -8436,7 +8435,7 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 
 	for _la == bigqueryParserT__4 {
 		{
-			p.SetState(644)
+			p.SetState(645)
 			p.Match(bigqueryParserT__4)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8444,11 +8443,11 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 			}
 		}
 		{
-			p.SetState(645)
+			p.SetState(646)
 			p.Cte_name()
 		}
 		{
-			p.SetState(646)
+			p.SetState(647)
 			p.Match(bigqueryParserAS)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8456,7 +8455,7 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 			}
 		}
 		{
-			p.SetState(647)
+			p.SetState(648)
 			p.Match(bigqueryParserT__0)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8464,11 +8463,11 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 			}
 		}
 		{
-			p.SetState(648)
+			p.SetState(649)
 			p.query_expr(0)
 		}
 		{
-			p.SetState(649)
+			p.SetState(650)
 			p.Match(bigqueryParserT__1)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8476,7 +8475,7 @@ func (p *bigqueryParser) With_statement() (localctx IWith_statementContext) {
 			}
 		}
 
-		p.SetState(655)
+		p.SetState(656)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -8617,7 +8616,7 @@ func (s *NameContext) Accept(visitor antlr.ParseTreeVisitor) interface{} {
 func (p *bigqueryParser) Name() (localctx INameContext) {
 	localctx = NewNameContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 62, bigqueryParserRULE_name)
-	p.SetState(673)
+	p.SetState(674)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -8627,7 +8626,7 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 	case bigqueryParserID:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(656)
+			p.SetState(657)
 			p.Match(bigqueryParserID)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8638,7 +8637,7 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 	case bigqueryParserDQOUTE:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(657)
+			p.SetState(658)
 			p.Match(bigqueryParserDQOUTE)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8646,11 +8645,11 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 			}
 		}
 		{
-			p.SetState(658)
+			p.SetState(659)
 			p.Name()
 		}
 		{
-			p.SetState(659)
+			p.SetState(660)
 			p.Match(bigqueryParserDQOUTE)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8661,7 +8660,7 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 	case bigqueryParserT__0:
 		p.EnterOuterAlt(localctx, 3)
 		{
-			p.SetState(661)
+			p.SetState(662)
 			p.Match(bigqueryParserT__0)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8669,11 +8668,11 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 			}
 		}
 		{
-			p.SetState(662)
+			p.SetState(663)
 			p.Name()
 		}
 		{
-			p.SetState(663)
+			p.SetState(664)
 			p.Match(bigqueryParserT__1)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8684,7 +8683,7 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 	case bigqueryParserT__23:
 		p.EnterOuterAlt(localctx, 4)
 		{
-			p.SetState(665)
+			p.SetState(666)
 			p.Match(bigqueryParserT__23)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8692,11 +8691,11 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 			}
 		}
 		{
-			p.SetState(666)
+			p.SetState(667)
 			p.Name()
 		}
 		{
-			p.SetState(667)
+			p.SetState(668)
 			p.Match(bigqueryParserT__23)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8707,7 +8706,7 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 	case bigqueryParserQUOTE:
 		p.EnterOuterAlt(localctx, 5)
 		{
-			p.SetState(669)
+			p.SetState(670)
 			p.Match(bigqueryParserQUOTE)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8715,11 +8714,11 @@ func (p *bigqueryParser) Name() (localctx INameContext) {
 			}
 		}
 		{
-			p.SetState(670)
+			p.SetState(671)
 			p.Name()
 		}
 		{
-			p.SetState(671)
+			p.SetState(672)
 			p.Match(bigqueryParserQUOTE)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -8842,7 +8841,7 @@ func (p *bigqueryParser) Alias_name() (localctx IAlias_nameContext) {
 	p.EnterRule(localctx, 64, bigqueryParserRULE_alias_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(675)
+		p.SetState(676)
 		p.Name()
 	}
 
@@ -8956,7 +8955,7 @@ func (p *bigqueryParser) Array_name() (localctx IArray_nameContext) {
 	p.EnterRule(localctx, 66, bigqueryParserRULE_array_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(677)
+		p.SetState(678)
 		p.Name()
 	}
 
@@ -9070,7 +9069,7 @@ func (p *bigqueryParser) Column_name() (localctx IColumn_nameContext) {
 	p.EnterRule(localctx, 68, bigqueryParserRULE_column_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(679)
+		p.SetState(680)
 		p.Name()
 	}
 
@@ -9184,7 +9183,7 @@ func (p *bigqueryParser) Cte_name() (localctx ICte_nameContext) {
 	p.EnterRule(localctx, 70, bigqueryParserRULE_cte_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(681)
+		p.SetState(682)
 		p.Name()
 	}
 
@@ -9298,7 +9297,7 @@ func (p *bigqueryParser) Dataset_name() (localctx IDataset_nameContext) {
 	p.EnterRule(localctx, 72, bigqueryParserRULE_dataset_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(683)
+		p.SetState(684)
 		p.Name()
 	}
 
@@ -9412,7 +9411,7 @@ func (p *bigqueryParser) Datatype_name() (localctx IDatatype_nameContext) {
 	p.EnterRule(localctx, 74, bigqueryParserRULE_datatype_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(685)
+		p.SetState(686)
 		p.Name()
 	}
 
@@ -9526,7 +9525,7 @@ func (p *bigqueryParser) Function_name() (localctx IFunction_nameContext) {
 	p.EnterRule(localctx, 76, bigqueryParserRULE_function_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(687)
+		p.SetState(688)
 		p.Name()
 	}
 
@@ -9640,7 +9639,7 @@ func (p *bigqueryParser) Join_name() (localctx IJoin_nameContext) {
 	p.EnterRule(localctx, 78, bigqueryParserRULE_join_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(689)
+		p.SetState(690)
 		p.Name()
 	}
 
@@ -9754,7 +9753,7 @@ func (p *bigqueryParser) Member_name() (localctx IMember_nameContext) {
 	p.EnterRule(localctx, 80, bigqueryParserRULE_member_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(691)
+		p.SetState(692)
 		p.Name()
 	}
 
@@ -9868,7 +9867,7 @@ func (p *bigqueryParser) Project_name() (localctx IProject_nameContext) {
 	p.EnterRule(localctx, 82, bigqueryParserRULE_project_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(693)
+		p.SetState(694)
 		p.Name()
 	}
 
@@ -9982,7 +9981,7 @@ func (p *bigqueryParser) Struct_name() (localctx IStruct_nameContext) {
 	p.EnterRule(localctx, 84, bigqueryParserRULE_struct_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(695)
+		p.SetState(696)
 		p.Name()
 	}
 
@@ -10096,7 +10095,7 @@ func (p *bigqueryParser) Table_name() (localctx ITable_nameContext) {
 	p.EnterRule(localctx, 86, bigqueryParserRULE_table_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(697)
+		p.SetState(698)
 		p.Name()
 	}
 
@@ -10259,7 +10258,7 @@ func (s *Table_exprContext) Accept(visitor antlr.ParseTreeVisitor) interface{} {
 func (p *bigqueryParser) Table_expr() (localctx ITable_exprContext) {
 	localctx = NewTable_exprContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 88, bigqueryParserRULE_table_expr)
-	p.SetState(714)
+	p.SetState(715)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -10268,20 +10267,20 @@ func (p *bigqueryParser) Table_expr() (localctx ITable_exprContext) {
 	switch p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 92, p.GetParserRuleContext()) {
 	case 1:
 		p.EnterOuterAlt(localctx, 1)
-		p.SetState(707)
+		p.SetState(708)
 		p.GetErrorHandler().Sync(p)
 
 		if p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 91, p.GetParserRuleContext()) == 1 {
-			p.SetState(702)
+			p.SetState(703)
 			p.GetErrorHandler().Sync(p)
 
 			if p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 90, p.GetParserRuleContext()) == 1 {
 				{
-					p.SetState(699)
+					p.SetState(700)
 					p.Project_name()
 				}
 				{
-					p.SetState(700)
+					p.SetState(701)
 					p.Match(bigqueryParserT__2)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -10293,11 +10292,11 @@ func (p *bigqueryParser) Table_expr() (localctx ITable_exprContext) {
 				goto errorExit
 			}
 			{
-				p.SetState(704)
+				p.SetState(705)
 				p.Dataset_name()
 			}
 			{
-				p.SetState(705)
+				p.SetState(706)
 				p.Match(bigqueryParserT__2)
 				if p.HasError() {
 					// Recognition error - abort rule
@@ -10309,14 +10308,14 @@ func (p *bigqueryParser) Table_expr() (localctx ITable_exprContext) {
 			goto errorExit
 		}
 		{
-			p.SetState(709)
+			p.SetState(710)
 			p.Table_name()
 		}
 
 	case 2:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(710)
+			p.SetState(711)
 			p.Match(bigqueryParserT__23)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -10324,11 +10323,11 @@ func (p *bigqueryParser) Table_expr() (localctx ITable_exprContext) {
 			}
 		}
 		{
-			p.SetState(711)
+			p.SetState(712)
 			p.Table_expr()
 		}
 		{
-			p.SetState(712)
+			p.SetState(713)
 			p.Match(bigqueryParserT__23)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -10465,7 +10464,7 @@ func (s *NumberContext) Accept(visitor antlr.ParseTreeVisitor) interface{} {
 func (p *bigqueryParser) Number() (localctx INumberContext) {
 	localctx = NewNumberContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 90, bigqueryParserRULE_number)
-	p.SetState(718)
+	p.SetState(719)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -10475,14 +10474,14 @@ func (p *bigqueryParser) Number() (localctx INumberContext) {
 	case bigqueryParserINT:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(716)
+			p.SetState(717)
 			p.Integer_type()
 		}
 
 	case bigqueryParserFLOAT:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(717)
+			p.SetState(718)
 			p.Float_type()
 		}
 
@@ -10589,7 +10588,7 @@ func (p *bigqueryParser) Integer_type() (localctx IInteger_typeContext) {
 	p.EnterRule(localctx, 92, bigqueryParserRULE_integer_type)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(720)
+		p.SetState(721)
 		p.Match(bigqueryParserINT)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -10695,7 +10694,7 @@ func (p *bigqueryParser) Float_type() (localctx IFloat_typeContext) {
 	p.EnterRule(localctx, 94, bigqueryParserRULE_float_type)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(722)
+		p.SetState(723)
 		p.Match(bigqueryParserFLOAT)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -10896,7 +10895,7 @@ func (s *StringContext) Accept(visitor antlr.ParseTreeVisitor) interface{} {
 func (p *bigqueryParser) String_() (localctx IStringContext) {
 	localctx = NewStringContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 96, bigqueryParserRULE_string)
-	p.SetState(730)
+	p.SetState(731)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -10906,42 +10905,42 @@ func (p *bigqueryParser) String_() (localctx IStringContext) {
 	case bigqueryParserQUOTED_STRING:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(724)
+			p.SetState(725)
 			p.Quoted_string()
 		}
 
 	case bigqueryParserTRIPLE_QUOTED_STRING:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(725)
+			p.SetState(726)
 			p.Triple_quoted_string()
 		}
 
 	case bigqueryParserRAW_STRING:
 		p.EnterOuterAlt(localctx, 3)
 		{
-			p.SetState(726)
+			p.SetState(727)
 			p.Raw_string()
 		}
 
 	case bigqueryParserBYTE_STRING:
 		p.EnterOuterAlt(localctx, 4)
 		{
-			p.SetState(727)
+			p.SetState(728)
 			p.Byte_string()
 		}
 
 	case bigqueryParserRAW_BYTE_STRING:
 		p.EnterOuterAlt(localctx, 5)
 		{
-			p.SetState(728)
+			p.SetState(729)
 			p.Raw_byte_string()
 		}
 
 	case bigqueryParserT__0, bigqueryParserT__23, bigqueryParserQUOTE, bigqueryParserDQOUTE, bigqueryParserID:
 		p.EnterOuterAlt(localctx, 6)
 		{
-			p.SetState(729)
+			p.SetState(730)
 			p.Special_string()
 		}
 
@@ -11048,7 +11047,7 @@ func (p *bigqueryParser) Quoted_string() (localctx IQuoted_stringContext) {
 	p.EnterRule(localctx, 98, bigqueryParserRULE_quoted_string)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(732)
+		p.SetState(733)
 		p.Match(bigqueryParserQUOTED_STRING)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -11154,7 +11153,7 @@ func (p *bigqueryParser) Triple_quoted_string() (localctx ITriple_quoted_stringC
 	p.EnterRule(localctx, 100, bigqueryParserRULE_triple_quoted_string)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(734)
+		p.SetState(735)
 		p.Match(bigqueryParserTRIPLE_QUOTED_STRING)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -11260,7 +11259,7 @@ func (p *bigqueryParser) Raw_string() (localctx IRaw_stringContext) {
 	p.EnterRule(localctx, 102, bigqueryParserRULE_raw_string)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(736)
+		p.SetState(737)
 		p.Match(bigqueryParserRAW_STRING)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -11366,7 +11365,7 @@ func (p *bigqueryParser) Byte_string() (localctx IByte_stringContext) {
 	p.EnterRule(localctx, 104, bigqueryParserRULE_byte_string)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(738)
+		p.SetState(739)
 		p.Match(bigqueryParserBYTE_STRING)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -11472,7 +11471,7 @@ func (p *bigqueryParser) Raw_byte_string() (localctx IRaw_byte_stringContext) {
 	p.EnterRule(localctx, 106, bigqueryParserRULE_raw_byte_string)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(740)
+		p.SetState(741)
 		p.Match(bigqueryParserRAW_BYTE_STRING)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -11595,11 +11594,11 @@ func (p *bigqueryParser) Special_string() (localctx ISpecial_stringContext) {
 	p.EnterRule(localctx, 108, bigqueryParserRULE_special_string)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(742)
+		p.SetState(743)
 		p.Datatype_name()
 	}
 	{
-		p.SetState(743)
+		p.SetState(744)
 		p.Match(bigqueryParserQUOTED_STRING)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -12212,7 +12211,7 @@ func (p *bigqueryParser) Keyword() (localctx IKeywordContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(745)
+		p.SetState(746)
 		_la = p.GetTokenStream().LA(1)
 
 		if !(((int64((_la-30)) & ^0x3f) == 0 && ((int64(1)<<(_la-30))&-1) != 0) || ((int64((_la-94)) & ^0x3f) == 0 && ((int64(1)<<(_la-94))&274877906943) != 0)) {

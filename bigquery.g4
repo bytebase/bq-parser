@@ -110,7 +110,7 @@ column_expr : '`' column_expr '`'
 except_statement : EXCEPT '(' column_name (',' column_name)* ')';
 
 // Replace Statement can replace any number of optionally aliased, comma separated expressions.
-replace_statement : REPLACE '(' expr (AS? alias_name)? (',' expr (AS? alias_name)* ) ')' ;
+replace_statement : REPLACE '(' expr (AS? alias_name)? (',' expr (AS? alias_name) )* ')' ;
 
 // Join Type rule can expand to be any type of JOIN keyword.
 join_type : INNER
