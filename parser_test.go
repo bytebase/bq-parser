@@ -46,10 +46,10 @@ func TestBQParser(t *testing.T) {
 			input, err := antlr.NewFileStream(filePath)
 			require.NoError(t, err)
 
-			lexer := bqparser.NewbigqueryLexer(input)
+			lexer := bqparser.NewBigQueryLexer(input)
 
 			stream := antlr.NewCommonTokenStream(lexer, 0)
-			p := bqparser.NewbigqueryParser(stream)
+			p := bqparser.NewBigQueryParser(stream)
 
 			lexerErrors := &CustomErrorListener{}
 			lexer.RemoveErrorListeners()
