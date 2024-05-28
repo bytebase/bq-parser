@@ -10,9 +10,6 @@ type BigQueryParserVisitor interface {
 	// Visit a parse tree produced by BigQueryParser#root.
 	VisitRoot(ctx *RootContext) interface{}
 
-	// Visit a parse tree produced by BigQueryParser#stmtblock.
-	VisitStmtblock(ctx *StmtblockContext) interface{}
-
 	// Visit a parse tree produced by BigQueryParser#stmtmulti.
 	VisitStmtmulti(ctx *StmtmultiContext) interface{}
 

@@ -11,10 +11,6 @@ func (v *BaseBigQueryParserVisitor) VisitRoot(ctx *RootContext) interface{} {
 	return v.VisitChildren(ctx)
 }
 
-func (v *BaseBigQueryParserVisitor) VisitStmtblock(ctx *StmtblockContext) interface{} {
-	return v.VisitChildren(ctx)
-}
-
 func (v *BaseBigQueryParserVisitor) VisitStmtmulti(ctx *StmtmultiContext) interface{} {
 	return v.VisitChildren(ctx)
 }
