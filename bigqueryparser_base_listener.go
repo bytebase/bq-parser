@@ -26,12 +26,6 @@ func (s *BaseBigQueryParserListener) EnterRoot(ctx *RootContext) {}
 // ExitRoot is called when production root is exited.
 func (s *BaseBigQueryParserListener) ExitRoot(ctx *RootContext) {}
 
-// EnterStmtblock is called when production stmtblock is entered.
-func (s *BaseBigQueryParserListener) EnterStmtblock(ctx *StmtblockContext) {}
-
-// ExitStmtblock is called when production stmtblock is exited.
-func (s *BaseBigQueryParserListener) ExitStmtblock(ctx *StmtblockContext) {}
-
 // EnterStmtmulti is called when production stmtmulti is entered.
 func (s *BaseBigQueryParserListener) EnterStmtmulti(ctx *StmtmultiContext) {}
 

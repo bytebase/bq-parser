@@ -10,9 +10,6 @@ type BigQueryParserListener interface {
 	// EnterRoot is called when entering the root production.
 	EnterRoot(c *RootContext)
 
-	// EnterStmtblock is called when entering the stmtblock production.
-	EnterStmtblock(c *StmtblockContext)
-
 	// EnterStmtmulti is called when entering the stmtmulti production.
 	EnterStmtmulti(c *StmtmultiContext)
 
@@ -189,9 +186,6 @@ type BigQueryParserListener interface {
 
 	// ExitRoot is called when exiting the root production.
 	ExitRoot(c *RootContext)
-
-	// ExitStmtblock is called when exiting the stmtblock production.
-	ExitStmtblock(c *StmtblockContext)
 
 	// ExitStmtmulti is called when exiting the stmtmulti production.
 	ExitStmtmulti(c *StmtmultiContext)
