@@ -9,7 +9,7 @@ parser grammar BigQueryParser;
 options { tokenVocab=BigQueryLexer; }
 
 root
-   : stmtblock
+   : stmtblock EOF
    ;
 
 stmtblock
