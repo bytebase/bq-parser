@@ -120,10 +120,10 @@ FLOAT : ('+' | '-')? DIGITS '.' DIGITS? ('e' ('+' | '-') DIGITS)?
 DIGITS : DIGIT+ ;
 
 // Whitespace
-WS : [ \t\r\n]+ -> skip ;
+WS : [ \t\r\n]+ -> channel(HIDDEN) ;
 // Comments
-CMT : '--' ~[\r\n]* -> skip ;
-M_CMT : '/*' .*? '*/' -> skip;
+CMT : '--' ~[\r\n]* -> channel(HIDDEN) ;
+M_CMT : '/*' .*? '*/' -> channel(HIDDEN) ;
 // Quoted String
 QUOTED_STRING : '"' (~'"' | '\\' '"')* '"' 
 			  | '\'' (~'\'' | '\\' '\'' )* '\'' ;
