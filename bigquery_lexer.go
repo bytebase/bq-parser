@@ -678,7 +678,7 @@ func bigquerylexerLexerInit() {
 		1, 0, 0, 0, 1257, 1258, 7, 35, 0, 0, 1258, 338, 1, 0, 0, 0, 27, 0, 994,
 		998, 1003, 1008, 1013, 1016, 1023, 1028, 1032, 1037, 1042, 1052, 1063,
 		1075, 1077, 1085, 1087, 1091, 1099, 1113, 1121, 1126, 1131, 1136, 1142,
-		1149, 1, 6, 0, 0,
+		1149, 1, 0, 1, 0,
 	}
 	deserializer := antlr.NewATNDeserializer(nil)
 	staticData.atn = deserializer.Deserialize(staticData.serializedATN)
