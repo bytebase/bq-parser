@@ -1,4 +1,4 @@
-// Code generated from BigQueryParser.g4 by ANTLR 4.13.0. DO NOT EDIT.
+// Code generated from BigQueryParser.g4 by ANTLR 4.13.1. DO NOT EDIT.
 
 package parser // BigQueryParser
 import "github.com/antlr4-go/antlr/v4"
@@ -229,6 +229,12 @@ func (s *BaseBigQueryParserListener) EnterName(ctx *NameContext) {}
 
 // ExitName is called when production name is exited.
 func (s *BaseBigQueryParserListener) ExitName(ctx *NameContext) {}
+
+// EnterDot_name is called when production dot_name is entered.
+func (s *BaseBigQueryParserListener) EnterDot_name(ctx *Dot_nameContext) {}
+
+// ExitDot_name is called when production dot_name is exited.
+func (s *BaseBigQueryParserListener) ExitDot_name(ctx *Dot_nameContext) {}
 
 // EnterAlias_name is called when production alias_name is entered.
 func (s *BaseBigQueryParserListener) EnterAlias_name(ctx *Alias_nameContext) {}

@@ -1,4 +1,4 @@
-// Code generated from BigQueryParser.g4 by ANTLR 4.13.0. DO NOT EDIT.
+// Code generated from BigQueryParser.g4 by ANTLR 4.13.1. DO NOT EDIT.
 
 package parser // BigQueryParser
 import "github.com/antlr4-go/antlr/v4"
@@ -144,6 +144,10 @@ func (v *BaseBigQueryParserVisitor) VisitWith_statement(ctx *With_statementConte
 }
 
 func (v *BaseBigQueryParserVisitor) VisitName(ctx *NameContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BaseBigQueryParserVisitor) VisitDot_name(ctx *Dot_nameContext) interface{} {
 	return v.VisitChildren(ctx)
 }
 

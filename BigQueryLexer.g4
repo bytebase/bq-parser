@@ -133,7 +133,8 @@ RAW_STRING : R (QUOTED_STRING | TRIPLE_QUOTED_STRING) ;
 BYTE_STRING : B (QUOTED_STRING | TRIPLE_QUOTED_STRING) ;
 RAW_BYTE_STRING : RB (QUOTED_STRING | TRIPLE_QUOTED_STRING) ;
 // ID regex
-ID : [a-zA-Z_][-A-Za-z_0-9]* ;
+QUOTED_ID : BACKTICK (('\\'? .))+ BACKTICK ;
+ID : [a-zA-Z_][A-Za-z_0-9]* ;
 RB : [rR][bB] | [bB][rR] ;
 
 DOT:                 '.';

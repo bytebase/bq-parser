@@ -118,9 +118,14 @@ expr : number
 // Cast Expression can cast any expression to one of the datatype_name options
 cast_expr : CAST LR_BRACKET expr AS datatype_name RR_BRACKET ;
 
-column_expr : BACKTICK column_expr BACKTICK
-			| (((project_name DOT)? dataset_name DOT)? table_name DOT)? column_name
-			;
+// column_expr : BACKTICK column_expr BACKTICK
+// 			| (((project_name DOT)? dataset_name DOT)? table_name DOT)? column_name
+// 			;
+
+column_expr
+	: name dot_name*
+	;
+
 // Except Statement can exclude any number of comma separated column names.
 except_statement : EXCEPT LR_BRACKET column_name (COMMA column_name)* RR_BRACKET;
 
@@ -174,7 +179,16 @@ skip_rows : number;
 with_statement : WITH cte_name AS LR_BRACKET query_expr RR_BRACKET (COMMA cte_name AS LR_BRACKET query_expr RR_BRACKET )* ;
 
 // Name can be any ID or string, with optional quotes and parens
-name : ID | '"' name '"' | LR_BRACKET name RR_BRACKET | BACKTICK name BACKTICK | '\'' name '\'' ;
+// name : ID | '"' name '"' | LR_BRACKET name RR_BRACKET | BACKTICK name BACKTICK | '\'' name '\'' ;
+name
+	: ID
+	| QUOTED_ID
+	;
+	
+dot_name
+	: DOT (name | keyword)
+	; 
+
 // Name rules
 
 // Each specific type of name just expands to the parent name rule. This lets us assign handlers
