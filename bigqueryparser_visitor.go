@@ -1,4 +1,4 @@
-// Code generated from BigQueryParser.g4 by ANTLR 4.13.0. DO NOT EDIT.
+// Code generated from BigQueryParser.g4 by ANTLR 4.13.1. DO NOT EDIT.
 
 package parser // BigQueryParser
 import "github.com/antlr4-go/antlr/v4"
@@ -111,6 +111,9 @@ type BigQueryParserVisitor interface {
 
 	// Visit a parse tree produced by BigQueryParser#name.
 	VisitName(ctx *NameContext) interface{}
+
+	// Visit a parse tree produced by BigQueryParser#dot_name.
+	VisitDot_name(ctx *Dot_nameContext) interface{}
 
 	// Visit a parse tree produced by BigQueryParser#alias_name.
 	VisitAlias_name(ctx *Alias_nameContext) interface{}
